@@ -2,10 +2,10 @@ import pyodbc
 import os
 
 # 📌 SQL Server Connection Settings
-DB_SERVER = os.getenv("DB_SERVER", "localhost")
-DB_NAME = os.getenv("DB_NAME", "GovalyltdDatabase")
-DB_USER = os.getenv("DB_USER", "sa")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "MahinSQL12@")
+DB_SERVER = os.getenv("DB_SERVER", "")
+DB_NAME = os.getenv("DB_NAME", "")
+DB_USER = os.getenv("DB_USER", "")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "")
 
 # 📌 Function to Connect to SQL Server
 def get_db_connection():
